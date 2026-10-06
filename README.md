@@ -4,18 +4,6 @@
 
 <br>
 
-<div align="center">
-
-```
-KTIMER ──fires──► KDPC ──queues──► IO_WORKITEM
-   ▲                                     │
-   └──────────── re-arm ◄────────────────┘
-
-[ no threads · no userland · no trace ]
-```
-
-</div>
-
 ---
 
 ## Table of Contents
