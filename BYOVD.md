@@ -288,6 +288,12 @@ Lethe as published is a research and lab tool. Using it in a production engageme
 
 *Λήθη — river of oblivion*
 
+---
+
 Built by [0x3xp](https://0x3xp.github.io)
+
+[![X](https://img.shields.io/badge/X-0xmrlowlwvel-000000?style=flat&logo=x&logoColor=white)](https://x.com/0xmrlowlwvel)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-piyushaakash-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/piyushaakash)
+[![YouTube](https://img.shields.io/badge/YouTube-infoseclk-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@infoseclk)
 
 </div>
