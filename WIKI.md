@@ -1,9 +1,3 @@
-<div align="center">
-  <img src="assets/banner.png" alt="Lethe" width="100%"/>
-</div>
-
----
-
 # Lethe — Technical Wiki
 
 This document covers the full technical picture of Lethe: what it does, how it works, what it defeats, what detects it, and what it cannot do. It is written to be accurate, not promotional.
@@ -489,6 +483,12 @@ The techniques documented here are understood by the security research community
 
 *Λήθη — river of oblivion*
 
+---
+
 Built by [0x3xp](https://0x3xp.github.io)
+
+[![X](https://img.shields.io/badge/X-0xmrlowlwvel-000000?style=flat&logo=x&logoColor=white)](https://x.com/0xmrlowlwvel)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-piyushaakash-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/piyushaakash)
+[![YouTube](https://img.shields.io/badge/YouTube-infoseclk-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@infoseclk)
 
 </div>
