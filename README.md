@@ -6,6 +6,14 @@
 
 <div align="center">
 
+```
+KTIMER ──fires──► KDPC ──queues──► IO_WORKITEM
+   ▲                                     │
+   └──────────── re-arm ◄────────────────┘
+
+no threads · no userland · no trace
+```
+
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 [![Platform](https://img.shields.io/badge/platform-Windows%20x64-lightgrey.svg)]()
 [![Kernel](https://img.shields.io/badge/mode-kernel-red.svg)]()
@@ -113,16 +121,17 @@ Full mapping and detection opportunities in [WIKI.md](WIKI.md).
 
 - Requires test signing (`bcdedit /set testsigning on`) in lab environments
 - Blocked by HVCI (Hypervisor-Protected Code Integrity)
-- Production deployment requires a BYOVD wrapper (not included)
+- Production deployment requires a BYOVD wrapper — see [BYOVD.md](BYOVD.md)
 - `creddump` produces raw memory pages, not minidump format
 
 ---
 
 ## Documentation
 
-Full technical documentation, lab setup, BYOVD deployment guide, detection opportunities, and research notes:
-
-**[→ WIKI.md](WIKI.md)**
+| Document | Description |
+|---|---|
+| [WIKI.md](WIKI.md) | Full technical documentation, lab setup, detection opportunities |
+| [BYOVD.md](BYOVD.md) | Limitations, BYOVD deployment path, HVCI mitigations |
 
 ---
 
@@ -130,6 +139,12 @@ Full technical documentation, lab setup, BYOVD deployment guide, detection oppor
 
 *Λήθη — river of oblivion*
 
+---
+
 Built by [0x3xp](https://0x3xp.github.io)
+
+[![X](https://img.shields.io/badge/X-0xmrlowlwvel-000000?style=flat&logo=x&logoColor=white)](https://x.com/0xmrlowlwvel)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-piyushaakash-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/piyushaakash)
+[![YouTube](https://img.shields.io/badge/YouTube-infoseclk-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@infoseclk)
 
 </div>
