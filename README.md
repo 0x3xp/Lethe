@@ -6,14 +6,6 @@
 
 <div align="center">
 
-```
-KTIMER ──fires──► KDPC ──queues──► IO_WORKITEM
-   ▲                                     │
-   └──────────── re-arm ◄────────────────┘
-
-no threads · no userland · no trace
-```
-
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 [![Platform](https://img.shields.io/badge/platform-Windows%20x64-lightgrey.svg)]()
 [![Kernel](https://img.shields.io/badge/mode-kernel-red.svg)]()
