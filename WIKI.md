@@ -394,6 +394,9 @@ Lethe/
 ├── scripts/
 │   ├── load.bat
 │   └── unload.bat
+├── bin/
+│   ├── Lethe.sys
+│   └── client.exe
 ├── README.md
 ├── WIKI.md
 ├── BYOVD.md
