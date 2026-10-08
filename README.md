@@ -41,7 +41,7 @@ Lethe:              KTIMER → KDPC → IO_WORKITEM
 | `ping` | Alive check | — |
 | `creddump` | Dump lsass memory via `MmCopyVirtualMemory` — no `OpenProcess`, no `ReadProcessMemory` | [T1003.001](https://attack.mitre.org/techniques/T1003/001/) |
 | `tokensteal <pid>` | Copy SYSTEM token directly into target EPROCESS | [T1134](https://attack.mitre.org/techniques/T1134/) |
-| `killedr <name.sys>` | Remove EDR kernel callbacks from `PspCreateProcessNotifyRoutine` | [T1562.001](https://attack.mitre.org/techniques/T1562/001/) |
+| `killedr <name.sys>` | Remove EDR kernel callbacks from `PspCreateProcessNotifyRoutine` (Not supported yet!) | [T1562.001](https://attack.mitre.org/techniques/T1562/001/) |
 
 ---
 
